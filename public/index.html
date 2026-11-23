@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uzeg — Түмэн үзэг ХХК</title>
+  <meta name="description" content="Түмэн үзэг ХХК — POS болон бизнесийн програм хангамж. Шинэ сайт удахгүй.">
+  <style>
+    :root { --bg:#f6f7f9; --fg:#1d2330; --muted:#5b6474; --accent:#1f5fbf; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#14171c; --fg:#e9ecf1; --muted:#9aa3b2; --accent:#6ea0ff; } }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+           background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; padding:16px; }
+    main { max-width:560px; text-align:center; }
+    h1 { font-size:2.2rem; margin:0 0 .3em; letter-spacing:.5px; }
+    h1 span { color:var(--accent); }
+    p { color:var(--muted); line-height:1.6; margin:.4em 0; }
+    .soon { margin-top:1.6em; font-weight:600; color:var(--fg); }
+    footer { margin-top:2.4em; font-size:.85rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1><span>Uzeg</span> програм хангамж</h1>
+    <p>Түмэн үзэг ХХК</p>
+    <p>POS болон бизнесийн програм хангамж — EcoTech, Simba, Uzeg, Цэгц</p>
+    <p class="soon">Шинэ сайт удахгүй нээгдэнэ.</p>
+    <footer>© <span id="y">2026</span> Түмэн үзэг ХХК · Эрдэнэт</footer>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
