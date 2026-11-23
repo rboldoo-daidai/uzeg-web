@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "description": "uzeg.mn — Түмэн үзэг ХХК-ийн вэбсайт",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": ">=24"
